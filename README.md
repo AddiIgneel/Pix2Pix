@@ -1,4 +1,4 @@
-The repository contains code of applying picture to picture model using pretrained model pix2pix. The input is CMP Facade Dataset. There are 2 approaches implemented in following code. 
+The repository contains code of applying picture to picture model using pretrained model pix2pix. To run this you need few libraries that are listed in requirement.txt. The input is CMP Facade Dataset. There are 2 approaches implemented in following code. 
 
 1. The data is converted into required network shape and network output is saved.
 2. Patches of equal size are extracted from input image. Network forward pass is applied and output is combined back into single image.
