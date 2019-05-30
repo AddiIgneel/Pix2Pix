@@ -1,5 +1,3 @@
-<br><br><br>
-
 The repository contains code of applying picture to picture model using pretrained model pix2pix. The input is CMP Facade Dataset. There are 2 approaches implemented in following code. 
 
 1. The data is converted into required network shape and network output is saved.
@@ -16,7 +14,7 @@ To run the network use following command
 `python test_task.py --dataroot ./base --direction BtoA --model pix2pix --name facades_label2photo_pretrained --type_eval patches`
 
 --dataroot is the path of downloaded images
---direction tells us we will be converting facades to images 
+--direction tells us we will be converting images to facade. 
 --type_eval tells us whether we want to do implementation 1 or 2.
 For implementation one use `--type_eval without_patches` and for implementation 2 use `--type_eval patches`.
 
