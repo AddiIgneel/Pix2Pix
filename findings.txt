@@ -1,0 +1,1 @@
+The model is able to learn the mappings and generate facades not exactly like the real one but somewhat near to it. After running both implementations, the results of model where patches are taken from image and their network output is combined is somewhat better as compared to output generated without patches. Only downfall is method is little bit slow.
